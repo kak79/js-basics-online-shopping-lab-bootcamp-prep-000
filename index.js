@@ -109,6 +109,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // doesn't place the order if a credit card number is not provided
+  //
   
   
 describe("placeOrder()", function() {
@@ -117,7 +118,7 @@ describe("placeOrder()", function() {
     expect(placeOrder()).toEqual("Sorry, we don't have a credit card on file for you.");
   });
 
-  it("places an order when a credit card number is provided", function() {
+  it("", function() {
     addToCart("zucchini");
 
     const cartTotal = total();
