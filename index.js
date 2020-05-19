@@ -84,11 +84,7 @@ function total() {
 function removeFromCart(item) {
   // removes the specified item from the cart
 
-
    for (let i = 0; i<cart.length; i++) {
-      
-     
-        
       
       if (cart.itemName[i] === item){
         
@@ -99,7 +95,6 @@ function removeFromCart(item) {
       
    }
    
-  
     return "That item is not in your cart." ;
 
 }
