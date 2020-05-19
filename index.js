@@ -100,7 +100,8 @@ for (i=0, i<cart.length, i++){
  }
   
   
-  
+  cartContents.itemName=false 
+ return "That item is not in your cart."
   
 }
 
