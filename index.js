@@ -90,6 +90,7 @@ function removeFromCart(item) {
       
       if  (cart[i].itemName === item ) {
         
+        
         return 
         
       }
