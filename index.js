@@ -94,14 +94,14 @@ function removeFromCart(item) {
       
       else {
         
+        cartContents.itemName=false 
+        return "That item is not in your cart."
+        
       }
-      
-      
-      
- }
+
+   }
   
-  cartContents.itemName=false 
- return "That item is not in your cart."
+  
   
 }
 
