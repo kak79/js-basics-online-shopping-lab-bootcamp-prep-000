@@ -110,26 +110,23 @@ function placeOrder(cardNumber) {
    
    var cartTotal = []
     
-    if (cardNumber =! "" ){
+    if (cardNumber === null ){
       
       return "Sorry, we don't have a credit card on file for you.";
       
     }
     
 
-    else if (cardNumber = "" ){
+    else  {
       
       return `Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`;
       
     }
     
-    else {
+     //cart.length=0
       
       
-      //cart.length=0
-      
-      
-    }
+   
     
     
     
