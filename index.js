@@ -119,11 +119,13 @@ function placeOrder(cardNumber) {
 
     else  {
       
+      
+      
       return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`;
       
     
     
-     cart.length=0
+     
       
       
    
