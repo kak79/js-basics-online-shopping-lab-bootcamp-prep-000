@@ -89,7 +89,7 @@ function removeFromCart(item) {
       
       if (cart.itemName[i] === item){
         
-         cart = cart.slice(0,i)+cart.slice(i+1,cart.length);
+         cart = cart.slice(0,i-1)+cart.slice(i+1,cart.length);
          return cart;
         
       }
@@ -107,7 +107,7 @@ function placeOrder(cardNumber) {
   // doesn't place the order if a credit card number is not provided
   //places an order when a credit card number is provided
   
-   var 
+   var cartTotal = []
     
     if (cardNumber===0){
       
