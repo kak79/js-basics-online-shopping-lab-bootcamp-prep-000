@@ -88,7 +88,7 @@ function removeFromCart(item) {
       
       if (item === cart[i].itemName){
         
-         cart = cart.slice(0,i-1)+cart.slice(i+1,cart.length);
+         cart = cart.slice(0,i)+cart.slice(i+1,cart.length);
          return cart;
         
       }
