@@ -108,7 +108,7 @@ function placeOrder(cardNumber) {
   
    var cartTotal = []
     
-    if (cardNumber === 0){
+    if (cardNumber === false){
       
       return "Sorry, we don't have a credit card on file for you.";
       
