@@ -124,7 +124,7 @@ function placeOrder(cardNumber) {
     else {
       
       
-      cart.length=0
+      //cart.length=0
       
       
     }
