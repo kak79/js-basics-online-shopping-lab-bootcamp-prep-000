@@ -89,8 +89,7 @@ function removeFromCart(item) {
   
   
   
- where cartContents.itemName=false 
- return "That item is not in your cart."
+ 
 
 for (i=0, i<cart.length, i++){
       
