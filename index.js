@@ -107,9 +107,7 @@ function placeOrder(cardNumber) {
   // doesn't place the order if a credit card number is not provided
   //places an order when a credit card number is provided
   
-   var cartTotal = [];
    
-
     
     if (cardNumber===0){
       
