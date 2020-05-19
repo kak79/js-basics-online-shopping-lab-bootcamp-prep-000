@@ -95,7 +95,7 @@ function removeFromCart(item) {
       
    }
    
-    return "That item is not in your cart." ;
+    console.log() "That item is not in your cart." ;
      
 
 }
