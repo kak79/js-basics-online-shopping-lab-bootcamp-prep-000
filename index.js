@@ -88,7 +88,7 @@ function removeFromCart(item) {
    for (let i = 0; i<cart.length; i++) {
       
       cart = cart.slice(0,i-1)+cart.slice(i+1,cart.length)
-        return item;
+        return cart.item;
  
    }
    
