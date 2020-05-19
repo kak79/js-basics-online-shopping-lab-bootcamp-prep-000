@@ -84,20 +84,17 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   
-  var cartContents = { 
-    itemName: item,
-  }
-  
+ 
 //set a conditional? here so that object.is= becomes true/false/null  
-//  object.is(cartContents[i].itemName,cartContents[i].itemName)=?  
+  object.is(cartContents[i].itemName,cartContents[i].itemName)  
   
   
-// where cartContents.itemName=false 
-// return "That item is not in your cart."
+ where cartContents.itemName=false 
+ return "That item is not in your cart."
 
-//for (i=0, i<cartContents.length, i++){
- //     
- //}
+for (i=0, i<cart.length, i++){
+      
+ }
   
   
   
