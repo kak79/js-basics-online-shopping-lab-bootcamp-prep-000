@@ -106,7 +106,7 @@ function placeOrder(cardNumber) {
   // doesn't place the order if a credit card number is not provided
   //places an order when a credit card number is provided
   
-   const cartTotal = []; 
+   function total() { const cartTotal = []; }
    
 
     
