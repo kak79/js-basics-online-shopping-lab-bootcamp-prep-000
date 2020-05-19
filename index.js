@@ -100,10 +100,6 @@ function removeFromCart(item) {
       }
 
    }
-  
-  
-  
-}
 
 
 
