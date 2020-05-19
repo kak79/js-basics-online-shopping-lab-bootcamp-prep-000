@@ -86,7 +86,7 @@ function removeFromCart(item) {
   
  
 //set a conditional? here so that object.is= becomes true/false/null  
-  object.is(cartContents[i].itemName,cartContents[i].itemName)  
+  
   
   
  where cartContents.itemName=false 
