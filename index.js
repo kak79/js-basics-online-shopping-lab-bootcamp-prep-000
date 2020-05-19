@@ -118,7 +118,6 @@ function placeOrder(cardNumber) {
 
   
     
-    const cartTotal = 
-    const cardNumber =  
+    
   
 }
