@@ -90,12 +90,14 @@ function removeFromCart(item) {
       
       if  (cart[i].itemName === item ) {
         
+        return 
+        
       }
       
       else {
         
-        cart.itemName = false 
-        return "That item is not in your cart."
+        cart.itemName = false ;
+        return "That item is not in your cart." ;
         
       }
 
