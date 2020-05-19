@@ -71,9 +71,9 @@ function total() {
   // write your code here
  
     
-    for 
-    sum cart
- 
+    for (let i = 0; i < cart.length; i++) {
+    sum cart(i);
+    }
 }
 
 
