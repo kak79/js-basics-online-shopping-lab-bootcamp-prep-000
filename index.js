@@ -112,10 +112,10 @@ function placeOrder(cardNumber) {
   //places an order when a credit card number is provided
   
    const cartTotal  
-   const cardNumber  
+   
 
     
-    if 
+    if (cartTotal===0)
     return "Sorry, we don't have a credit card on file for you."
 
   
