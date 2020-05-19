@@ -90,8 +90,8 @@ function removeFromCart(item) {
       
       if  (cart[i].itemName === item ) {
         
-        cart.splice
-        return 
+        cart.splice(i,1)
+        return item
         
       }
       
