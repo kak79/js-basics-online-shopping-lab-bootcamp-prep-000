@@ -70,11 +70,9 @@ const statement = [];
 function total() {
   // write your code here
  
-    var cartTotal = []
     
-    var sum = cartTotal.reduce(a,b){
-      a+b
-    },0);
+    for 
+    sum cart
  
 }
 
