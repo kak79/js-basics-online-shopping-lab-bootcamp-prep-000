@@ -108,7 +108,7 @@ function placeOrder(cardNumber) {
   
    
    
-   var cartTotal = []
+   
     
     if (!cardNumber  ){
       
