@@ -112,7 +112,7 @@ function placeOrder(cardNumber) {
   
   
 describe("placeOrder()", function() {
-  it("doesn't place the order if a credit card number is not provided", function() {
+  it("", function() {
     
     expect(placeOrder()).toEqual("Sorry, we don't have a credit card on file for you.");
   });
