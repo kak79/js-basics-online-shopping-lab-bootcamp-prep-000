@@ -68,7 +68,7 @@ const statement = [];
 
 
 function total() {
-  // write your code here
+  // adds up the price of all items in the cart
  
     var cartTotal = 0
     
