@@ -28,7 +28,7 @@ function addToCart(item) {
 
 
 function viewCart() {
-  // write your code here
+  // prints 'Your shopping cart is empty.' if the cart is empty
  
   
 const cartLength = getCart().length;
