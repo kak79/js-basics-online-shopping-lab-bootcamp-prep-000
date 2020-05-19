@@ -108,7 +108,7 @@ function removeFromCart(item) {
 
 
 function placeOrder(cardNumber) {
-  // write your code here
+  // doesn't place the order if a credit card number is not provided
   
   
 describe("placeOrder()", function() {
