@@ -82,7 +82,7 @@ function total() {
 
 
 function removeFromCart(item) {
-  // write your code here
+  // removes the specified item from the cart
 
 
    for (let i = 0; i<cart.length; i++) {
