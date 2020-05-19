@@ -115,7 +115,7 @@ function placeOrder(cardNumber) {
     }
     
 
-    else if (){
+    else if (cardNumber =! "" )){
       
       return `Your total cost is $${cartTotal}, which will be charged to the card ${cardNumber}.`;
       
