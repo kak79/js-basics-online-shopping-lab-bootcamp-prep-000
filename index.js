@@ -85,6 +85,7 @@ function removeFromCart(item) {
   // removes the specified item from the cart
 
    for (let i = 0; i<cart.length; i++) {
+      const newCart = [];
       
       if (cart.itemName[i] === item){
         
