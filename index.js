@@ -85,7 +85,7 @@ function removeFromCart(item) {
   // write your code here
 
 
-   for (i=0, i<cart.length, i++){
+   for (i=0, i<cart.length, i++);{
       
       
       if  (cart[i].itemName === item ) {
@@ -94,7 +94,7 @@ function removeFromCart(item) {
       
       else {
         
-        cartContents.itemName=false 
+        cart.itemName = false 
         return "That item is not in your cart."
         
       }
