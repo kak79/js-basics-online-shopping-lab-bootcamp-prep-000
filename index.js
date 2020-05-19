@@ -87,21 +87,11 @@ function removeFromCart(item) {
 
    for (let i = 0; i<cart.length; i++) {
       
-      
-      if  (cart[i].itemName === item ) {
-        
-        
-        
-      }
-      
-      else {
-        
-        
-        
-      }
-
+      cart = cart.slice(0,i-1)+cart.slice(i+1,cart.length)
+        return item;
+ 
    }
-
+   
   cart[i].itemName === false ;
     return "That item is not in your cart." ;
 
