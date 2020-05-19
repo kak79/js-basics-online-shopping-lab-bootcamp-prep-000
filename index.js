@@ -111,6 +111,16 @@ function placeOrder(cardNumber) {
   // write your code here
   
   
-  
+describe("placeOrder()", function() {
+  it("doesn't place the order if a credit card number is not provided", function() {
+    
+    expect(placeOrder()).toEqual("Sorry, we don't have a credit card on file for you.");
+  });
+
+  it("places an order when a credit card number is provided", function() {
+    addToCart("zucchini");
+
+    const cartTotal = total();
+    const cardNumber =  
   
 }
