@@ -88,15 +88,15 @@ function removeFromCart(item) {
       
       if (item === cart[i].itemName){
         
-         cart = cart.slice(0,i)+cart.slice(i+1);
+         cart = cart.slice(0,i).concat(cart.slice(i+1));
          return cart;
         
       }
       
    }
    
-    console.log("That item is not in your cart.") ;
-     return cart
+    return "That item is not in your cart.";
+     
 
 }
 
