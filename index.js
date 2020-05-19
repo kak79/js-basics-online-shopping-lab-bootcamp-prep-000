@@ -12,7 +12,7 @@ function setCart(c) {
 
 
 function addToCart(item) {
- // write your code here
+ // can add items to the cart
  
     var cartContents = { 
     itemName: item,
