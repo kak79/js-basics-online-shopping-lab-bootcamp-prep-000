@@ -97,7 +97,7 @@ function removeFromCart(item) {
       
       else {
         
-        item = false ;
+        cart[i].itemName === false ;
         return "That item is not in your cart." ;
         
       }
