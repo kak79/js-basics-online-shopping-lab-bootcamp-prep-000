@@ -83,27 +83,30 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  
- 
-//set a conditional? here so that object.is= becomes true/false/null  
-  
-  
-  
- 
 
-for (i=0, i<cart.length, i++){
+
+   for (i=0, i<cart.length, i++){
       
       
       if  (cart[i].itemName === item ) {
         
       }
+      
+      else {
+        
+      }
+      
+      
+      
  }
-  
   
   cartContents.itemName=false 
  return "That item is not in your cart."
   
 }
+
+
+
 
 function placeOrder(cardNumber) {
   // write your code here
